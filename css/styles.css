@@ -255,6 +255,31 @@ textarea:focus-visible {
 }
 
 /* Secciones */
+footer.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.listado-redes {
+  display: flex;
+  list-style: none;
+  gap: 0.5em;
+}
+
+ul.listado-redes a {
+  background-color: #f5ede2;
+  display: flex;
+  border-radius: 50px;
+  width: 3em;
+  height: 3em;
+  padding: 0.3em;
+}
+
+ul.listado-redes svg {
+  fill: #8d1f1f;
+}
+
 .site-footer {
   margin-top: 3rem;
   background: var(--surface);
